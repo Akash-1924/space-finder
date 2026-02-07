@@ -1,22 +1,14 @@
 import './App.css'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
 
 function App() {
   return (
     <>
+    <div className='h-1000'>
       <Navbar />
-      <div className='bg-black h-full'>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold'>Space Finder</h1>
-        <h1 className='text-white text-left pl-12 pt-40 text-8xl font-bold pb-12'>Space Finder</h1>
-
-
+      <Hero />
       </div>
     </>
   )
